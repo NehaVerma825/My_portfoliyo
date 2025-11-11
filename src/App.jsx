@@ -1,8 +1,8 @@
-import About from "./component/About"
-import Contact from "./component/Contact"
-import { Header } from "./component/Header"
-import Portfoliyo from "./component/Portfoliyo"
-import Services from "./component/services"
+import About from "./component/About.jsx"
+import Contact from "./component/Contact.jsx"
+import { Header } from "./component/Header.jsx"
+import Portfoliyo from "./component/Portfoliyo.jsx"
+import Services from "./component/Services.jsx"
 
 
 
