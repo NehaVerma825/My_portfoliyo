@@ -25,7 +25,7 @@ const projects = [
       "Real-time weather intelligence app with radar views, alerts, and geolocation-driven recommendations for planners. Built with resilient API handling and skeleton states.",
     image: imageThree,
     tags: ["React", "OpenWeather API", "Data Visualization"],
-    link: "#",
+    link: "https://my-portfoliyo-sef1.vercel.app/",
   },
 ];
 
