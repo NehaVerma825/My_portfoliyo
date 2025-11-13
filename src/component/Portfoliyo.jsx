@@ -22,7 +22,7 @@ const projects = [
   {
     title: "Weather Dashboard",
     description:
-      "Real-time weather intelligence app with radar views, alerts, and geolocation-driven recommendations for planners. Built with resilient API handling and skeleton states.",
+    "Real-time weather intelligence app with radar views, alerts, and geolocation-driven recommendations for planners. Built with resilient API handling and skeleton states.",
     image: imageThree,
     tags: ["React", "OpenWeather API", "Data Visualization"],
     link: "https://my-portfoliyo-sef1.vercel.app/",

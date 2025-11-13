@@ -79,7 +79,7 @@ export function Header() {
 
       {/* Mobile Slide Menu */}
       <div
-        className={`fixed top-0 right-0 z-50 flex h-full w-72 transform flex-col gap-8 bg-[rgba(8,28,45,0.98)] px-10 py-12 text-left shadow-2xl shadow-black/80 transition-all duration-300 lg:hidden ${
+        className={`fixed top-0 right-0 z-50 flex h-full w-72 transform flex-col gap-8 bg-[rgba(8,28,45,0.70)] px-10 py-12 text-left shadow-2xl shadow-black/80 transition-all duration-300 lg:hidden ${
           menuOpen ? "translate-x-0" : "translate-x-full"
         }`}
         role="dialog"
@@ -103,7 +103,7 @@ export function Header() {
                 className="inline-flex items-center justify-between text-white transition hover:text-[#ff004f]"
               >
                 {label}
-                <i className="fa-solid fa-arrow-right text-base" />
+                {/* <i className="fa-solid fa-arrow-right text-base" /> */}
               </a>
             </li>
           ))}

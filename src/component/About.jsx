@@ -168,7 +168,7 @@ export default function About() {
               </div>
 
               <div className="space-y-6">
-                <div className="flex flex-wrap gap-16 border-b border-white/10 pb-2 text-lg font-medium text-white/80">
+                <div className="flex flex-wrap md:gap-16 gap-6 border-b border-white/10 pb-2 text-lg font-medium text-white/80">
                   {tabs.map((tab) => {
                     const isActive = tab === activeTab;
                     return (
