@@ -60,13 +60,29 @@ const experiences = [
 const education = [
   {
     title: "B.Tech · Electronics & Communication Engineering",
-    institution: "Netaji Subhas University of Technology",
+    institution: "Netaji Subhas University of Technology, New Delhi",
     period: "2021 - 2025",
     details: [
+      "CGPA: 5.7/10",
       "Specialized in VLSI, Embedded Systems, and Web Technologies.",
       "Final year project: Designed a low-power VCO circuit with precision tuning.",
     ],
   },
+
+  {
+    title: "Class XII (CBSE)",
+    institution: "Rajkiya Pratibha Vikas Vidyalaya, Sec-21 Rohini",
+    period: "2018 - 2020",
+    details: ["Percentage: 88%"],
+  },
+
+  {
+    title: "Class X (CBSE)",
+    institution: "Govt. Girls Senior Secondary School, Mubarakpur Dabas New delhi",
+    period: "2018",
+    details: ["Percentage: 91%"],
+  },
+
   {
     title: "Key Projects",
     institution: "",
@@ -78,6 +94,7 @@ const education = [
     ],
   },
 ];
+
 
 export default function About() {
   const [activeTab, setActiveTab] = useState("Skills");

@@ -155,7 +155,7 @@ export default function Contact() {
       {/* Footer Bottom */}
       <div className="flex items-center justify-center bg-[#0f1114] py-4 text-sm text-white">
         <p>
-          © Neha — Made with <span className="text-[#ff3d7a]">❤</span>
+          copyright @Neha made with <span className="text-[#ff3d7a]">❤</span>
         </p>
       </div>
     </footer>
